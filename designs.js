@@ -17,8 +17,8 @@ $(document).ready(function(){
 
         //Selectors and (shorthand)listeners
         $('.cells').click(function(event){
-            var paint = $('#colorPicker').val();
-            $(event.target).css('background-color', paint);
+            var cellColour = $('#colorPicker').val();
+            $(event.target).css('background-color', cellColour);
         });
     });
 });
